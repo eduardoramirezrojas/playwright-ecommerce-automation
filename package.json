@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/purchase.e2e.spec.ts",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.3",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "typescript-eslint": "^8.70.1"
+  }
+}
